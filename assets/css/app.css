@@ -4,20 +4,8 @@
 }
 
 /* Navigation */
-.nav-background {
-  background-color: #01579B;
-}
-
-.nav-links li a {
-  color: #ffffff;
-}
-
-.sidenav {
-  background-color: #01579B;
-}
-
-.sidenav li a {
-  color: #ffffff;
+.nav-link {
+  color: #000000;
 }
 
 .sidenav-trigger {
@@ -40,11 +28,15 @@
 /* Home */
 body {
   background-color: #f9f9f9;
-  font-family: "Share Tech Mono", monospace;
 }
 
 h1 {
   font-family: "Roboto Mono", monospace;
+  padding: 5rem 0 0 0;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
 }
 
 /* Call to action */
@@ -66,10 +58,6 @@ h1 {
 
 .hero-donate {
   padding: 5rem 0 0 0;
-}
-
-.card {
-  background-color: rgba(255, 255, 255, 0.8);
 }
 
 /* Widgets */
