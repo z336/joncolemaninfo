@@ -40,6 +40,11 @@
 /* Home */
 body {
   background-color: #f9f9f9;
+  font-family: "Share Tech Mono", monospace;
+}
+
+h1 {
+  font-family: "Roboto Mono", monospace;
 }
 
 /* Call to action */
