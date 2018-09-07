@@ -25,6 +25,18 @@
 }
 
 /* Footer */
+.fab {
+  padding: .5rem;
+  font-size: 2.5rem;
+  width: 4rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fab:hover {
+  opacity: 0.4;
+}
+
 /* Home */
 body {
   background-color: #f9f9f9;
