@@ -1,2 +1,2 @@
-# joncolemaninfo
-portfolio
+# joncoleman.info
+portfolio website
