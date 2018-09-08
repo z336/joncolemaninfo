@@ -1,30 +1,46 @@
 /* Common */
-.description {
-  padding: 5rem 0;
-}
-
 /* Navigation */
-.nav-link {
+header {
   color: #000000;
+  min-height: 5rem;
+  border-bottom: #cecece .25rem solid;
+  padding: 3rem 0 0 0;
 }
 
-.sidenav-trigger {
-  color: #ffffff;
+header ul {
+  margin: 0;
+  padding: 0;
 }
 
-.brand-logo {
-  height: 65px;
-  width: 65px;
+header ul li {
+  float: left;
+  display: inline;
 }
 
-@media screen and (max-width: 601px) {
-  .brand-logo {
-    height: 55px;
-    width: 55px;
-  }
+header nav {
+  float: right;
+}
+
+header .current a {
+  color: #727272;
+}
+
+header #branding {
+  float: left;
+}
+
+header #branding h1 {
+  margin: 0;
 }
 
 /* Footer */
+footer {
+  color: #000000;
+  min-height: 5rem;
+  padding: 3rem 0 0 0;
+  text-align: center;
+}
+
 .fab {
   padding: .5rem;
   font-size: 2.5rem;
@@ -40,41 +56,99 @@
 /* Home */
 body {
   background-color: #f9f9f9;
+  background: url("../img/code.jpg");
 }
 
-h1 {
+h1, h2, h3, h4, h5 {
   font-family: "Roboto Mono", monospace;
-  padding: 5rem 0 0 0;
 }
 
-p {
+#brand-font {
+  font-family: "Open Sans", sans-serif;
+}
+
+p, a, li {
   font-family: "Roboto", sans-serif;
 }
 
-/* Call to action */
-.hero {
-  background-image: url("https://pinnacleforum.com/wp-content/uploads/2016/03/Indianapolis.jpg");
-  background-repeat: no-repeat;
-  height: 100vh;
-  background-size: cover;
+a {
+  text-decoration: none;
+  color: #000000;
 }
 
-.hero-logo {
-  padding: 5rem 0 0 0;
-  display: block;
-  margin-left: auto;
+a:hover {
+  opacity: 0.7;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding-right: 1.25rem;
+  padding-left: 1.25rem;
   margin-right: auto;
-  height: 31.25em;
-  width: 31.25em;
+  margin-left: auto;
 }
 
-.hero-donate {
-  padding: 5rem 0 0 0;
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+/* Call to action */
+#cta {
+  padding: 3rem 0 0 0;
+  font-size: 4rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+#showcase {
+  text-align: center;
+  min-height: 25rem;
+}
+
+#showcase p {
+  font-size: 2rem;
 }
 
 /* Widgets */
-/* Blogs */
-.blogs {
-  padding: 5rem 0 0 0;
+/* Boxes */
+.boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-align: center;
+}
+
+@media (max-width: 750px) {
+  .boxes {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.box {
+  margin: 2rem;
 }
 /*# sourceMappingURL=app.css.map */

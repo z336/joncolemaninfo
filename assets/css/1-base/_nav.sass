@@ -1,14 +1,27 @@
 /* Navigation */
 
-.nav-link 
-    color: $links
+header 
+    color: #000000
+    min-height: 5rem
+    border-bottom: #cecece .25rem solid  
+    padding: $padding-top
+    
+    ul
+        margin: 0
+        padding: 0
+        
+        li 
+            float: left
+            display: inline
+            
+    nav
+        float: right
+    
+    .current a
+        color: #727272
 
-.sidenav-trigger
-    color: #ffffff
+    #branding 
+        float: left
 
-.brand-logo
-    height: 65px
-    width: 65px
-    @media screen and (max-width: 601px) 
-        height: 55px
-        width: 55px 
+        h1 
+            margin: 0
