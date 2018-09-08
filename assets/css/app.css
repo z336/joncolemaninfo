@@ -112,18 +112,25 @@ ul {
 
 /* Call to action */
 #cta {
-  padding: 3rem 0 0 0;
   font-size: 4rem;
   font-family: "Open Sans", sans-serif;
+  text-align: center;
 }
 
 #showcase {
   text-align: center;
-  min-height: 25rem;
+  min-height: 55rem;
+  padding: 5rem;
 }
 
 #showcase p {
   font-size: 2rem;
+}
+
+@media (max-width: 1024px) {
+  #showcase {
+    padding: 1rem;
+  }
 }
 
 /* Widgets */
