@@ -1,9 +1,8 @@
 /* Common */
 /* Navigation */
 header {
-  color: #000000;
+  color: #66CDAA;
   min-height: 5rem;
-  border-bottom: #cecece .25rem solid;
   padding-top: 2.5rem;
 }
 
@@ -33,6 +32,7 @@ header nav {
 
 header .fab, header .fas {
   font-size: 2rem;
+  color: #66CDAA;
 }
 
 @media (max-width: 767px) {
@@ -44,15 +44,15 @@ header .fab, header .fas {
 
 /* Footer */
 footer {
-  color: #000000;
+  color: #66CDAA;
   min-height: 5rem;
   text-align: center;
 }
 
 /* Home */
 body {
-  background-color: #f9f9f9;
-  background: url("../img/code.jpg");
+  background-color: #3f3f40;
+  color: #66CDAA;
 }
 
 h1, h2, h3, h4, h5 {
@@ -119,11 +119,12 @@ hr {
 }
 
 #showcase p {
-  font-size: 3rem;
+  font-size: 3.5rem;
   text-align: center;
+  margin-top: 5rem;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 376px) {
   #showcase p {
     font-size: 2.75rem;
   }
@@ -139,9 +140,9 @@ hr {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  text-align: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
 }
@@ -156,7 +157,7 @@ hr {
 }
 
 .box {
-  margin: 2rem;
+  margin: 4rem;
   padding: 0.5rem;
   text-align: center;
 }
@@ -166,10 +167,5 @@ hr {
   font-size: 3rem;
   width: 3rem;
   text-decoration: none;
-  text-align: center;
-}
-
-.fab:hover {
-  opacity: 0.4;
 }
 /*# sourceMappingURL=app.css.map */
