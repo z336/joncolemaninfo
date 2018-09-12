@@ -28,6 +28,7 @@ header ul li {
 
 header nav {
   float: right;
+  margin-top: .5rem;
 }
 
 header .fab, header .fas {
@@ -69,7 +70,6 @@ p, a, li {
 
 a {
   text-decoration: none;
-  color: #000000;
 }
 
 a:hover {
@@ -118,19 +118,29 @@ hr {
   min-height: 5rem;
 }
 
-#showcase p {
+#showcase h1 {
   font-size: 3.5rem;
-  text-align: center;
+  font-family: "Open Sans", sans-serif;
   margin-top: 5rem;
 }
 
+#showcase h1, #showcase p {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
 @media (max-width: 376px) {
-  #showcase p {
+  #showcase h1 {
     font-size: 2.75rem;
   }
 }
 
-/* Widgets */
+/* Form */
+.form-elements {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+}
+
 /* Boxes */
 .boxes {
   display: -webkit-box;
