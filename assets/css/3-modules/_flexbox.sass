@@ -11,13 +11,32 @@
 
 .box
   margin: 4rem
-  padding: $padding
   text-align: center
   
-  
-
 .fab, .fas
     padding: .15rem
     font-size: 3rem
     width: 3rem
     text-decoration: none
+
+.build 
+    overflow: hidden 
+    border-right: .15em solid orange 
+    white-space: nowrap 
+    margin: 0 auto 
+    animation: typing 3.5s steps(20, end), blink-caret .75s step-end infinite
+
+.build-padding
+    padding-bottom: 1rem
+
+@keyframes typing 
+  from 
+      width: 0 
+  to 
+      width: 100%
+
+@keyframes blink-caret 
+  from, to
+      border-color: transparent 
+  50%
+      border-color: orange

@@ -119,19 +119,18 @@ hr {
 }
 
 #showcase h1 {
-  font-size: 3.5rem;
   font-family: "Open Sans", sans-serif;
   margin-top: 5rem;
 }
 
 #showcase h1, #showcase p {
-  font-size: 2.5rem;
+  font-size: 3rem;
   text-align: center;
 }
 
-@media (max-width: 376px) {
+@media (max-width: 320px) {
   #showcase h1 {
-    font-size: 2.75rem;
+    font-size: 2rem;
   }
 }
 
@@ -168,7 +167,6 @@ hr {
 
 .box {
   margin: 4rem;
-  padding: 0.5rem;
   text-align: center;
 }
 
@@ -177,5 +175,54 @@ hr {
   font-size: 3rem;
   width: 3rem;
   text-decoration: none;
+}
+
+.build {
+  overflow: hidden;
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  margin: 0 auto;
+  -webkit-animation: typing 3.5s steps(20, end), blink-caret 0.75s step-end infinite;
+          animation: typing 3.5s steps(20, end), blink-caret 0.75s step-end infinite;
+}
+
+.build-padding {
+  padding-bottom: 1rem;
+}
+
+@-webkit-keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@-webkit-keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
 }
 /*# sourceMappingURL=app.css.map */
