@@ -1,4 +1,3 @@
-/* Common */
 /* Navigation */
 header {
   color: #66CDAA;
@@ -132,12 +131,6 @@ hr {
   #showcase h1 {
     font-size: 2rem;
   }
-}
-
-/* Form */
-.form-elements {
-  font-family: "Roboto", sans-serif;
-  font-size: 1.5rem;
 }
 
 /* Boxes */
